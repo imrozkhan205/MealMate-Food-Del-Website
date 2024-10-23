@@ -9,12 +9,16 @@ import LoginPopup from "./components/LoginPopup/LoginPopup";
 import ContactUs from "./components/Contactus/ContactUs"; // Import the Contact Us page
 import Verify from "./pages/Verify/Verify";
 import MyOrders from "./pages/MyOrders/MyOrders";
-
+import SpecialItems from "./pages/SpecialItems/SpecialItems";
+import FoodItem from "./components/FoodItem/FoodItem";
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
 
   return (
-    <>
+    <>      
+    <SpecialItems/>
+
+    
       {showLogin && <LoginPopup setShowLogin={setShowLogin} />}
       <div className="app">
         <Navbar setShowLogin={setShowLogin} />

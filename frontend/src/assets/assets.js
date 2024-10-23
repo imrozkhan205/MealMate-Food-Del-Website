@@ -1,7 +1,7 @@
 import basket_icon from './basket_icon.png'
 //import logo from './logo.png'
 import foodlogo2 from './foodlogo2.png'
-
+import biryani from './biryani.jpg'
 import headerfood1 from './header_img.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
@@ -117,7 +117,12 @@ export const menu_list = [
     {
         menu_name: "Noodles",
         menu_image: menu_8
-    }]
+    },
+    {
+        menu_name :"Rice",
+        menu_image : biryani
+    }
+]
 
 export const food_list = [
     {
