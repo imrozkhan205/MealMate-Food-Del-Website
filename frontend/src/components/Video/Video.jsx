@@ -24,7 +24,7 @@ const Video = () => {
       <button className="fullscreen-btn" onClick={toggleFullScreen}>
         {isFullScreen ? 'Exit Fullscreen' : 'Fullscreen'}
       </button>
-      <button className="close-btn" onClick={closeVideo}>x</button>
+      <button className="close-btn" onClick={closeVideo}>X</button>
     </div>
   );
 };
