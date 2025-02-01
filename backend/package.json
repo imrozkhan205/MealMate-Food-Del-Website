@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "server": "nodemon server.js",
-    "postinstall": "npm rebuild bcrypt --build-from-source"
+    "postinstall": "chmod +x node_modules/.bin/node-pre-gyp"
 
   },
   "author": "",
