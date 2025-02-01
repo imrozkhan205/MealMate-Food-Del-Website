@@ -4,7 +4,7 @@ import Header from '../../components/Navbar/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../components/AppDownload/AppDownload'
-import FoodListWithPriceFilter from '../../components/filter/FilterItems'
+import FoodListWithPriceFilter from '../../components/Filter/FilterItems.jsx'
 import Video from '../../components/Video/Video'
 
 const Home = () => {
