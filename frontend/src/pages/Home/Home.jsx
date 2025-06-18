@@ -2,9 +2,9 @@ import React, {useState} from 'react'
 import './Home.css'
 import Header from '../../components/Navbar/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
-import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
-import AppDownload from '../../components/AppDownload/AppDownload'
-import FoodListWithPriceFilter from '../../components/Filter/FilterItems.jsx'
+// import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
+// import AppDownload from '../../components/AppDownload/AppDownload'
+// import FoodListWithPriceFilter from '../../components/Filter/FilterItems.jsx'
 import Video from '../../components/Video/Video'
 
 const Home = () => {
@@ -14,10 +14,10 @@ const Home = () => {
     <div>
       <Header/>
       <ExploreMenu category={category} setCategory={setCategory}/>
-      <FoodDisplay category={category}/>
+      {/* <FoodDisplay category={category}/>
       <h2>Filter according to your💵</h2>
       <FoodListWithPriceFilter/>
-      <AppDownload/>
+      <AppDownload/> */}
       
       <Video/>
     </div>

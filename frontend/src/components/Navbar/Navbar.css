@@ -24,18 +24,19 @@
 }
 
 .navbar button {
-    background: transparent;
+    background: linear-gradient(to right, #e34d11, #cd912a);
     font-size: 16px;
-    color: #49557e;
-    border: 1px solid skyblue;
+    color: #000000;
+    border: 1px solid rgb(224, 224, 224);
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
+    font: bold
 }
 
 .navbar button:hover {
-    background-color: hsl(229, 89%, 93%);
+    background-color:linear-gradient(to right, #f44906, #eea11b);
 }
 
 .navbar .active {
